@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  background-image: url("../images/bg-header-desktop.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+header {
+  text-align: center;
+  margin: 0 auto;
+  width: 56%;
+  padding-top: 100px;
+}
+
+header h3 {
+  margin: 20px;
+  font-size: 2.2em;
+  color: #555;
+}
+
+header p {
+  margin: 10px;
+  font-size: 1.2em;
+  color: #777;
+}
+
+.logo img {
+  width: 150px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.buttons-header {
+  margin-top: 40px;
+}
+
+.btn-1 {
+  background-color: #29baa9;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1em;
+  border-radius: 23px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.btn-2 {
+  background-color: #6173ff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1em;
+  border-radius: 23px;
+  font-weight: bold;
+}
+/* -------------------------------------------*/
+
+.section-1 {
+  margin: 130px auto 0 auto;
+  text-align: center;
+  width: 56%;
+}
+
+.section-1 h3 {
+  margin: 20px;
+  font-size: 2.3em;
+  color: #555;
+}
+
+.section-1 p {
+  margin: 10px;
+  font-size: 1.1em;
+  color: #777;
+}
+
+/* -------------------------------------------*/
+
+.section-2 {
+  width: 80%;
+  margin: 80px auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.computer-img {
+  float: left;
+  padding-right: 20px;
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.image-computer {
+  width: 100%;
+}
+
+.section-2-text {
+  padding-left: 5px;
+  margin-top: 100px;
+  overflow: hidden;
+}
+.feature {
+  margin-bottom: 20px;
+}
+
+.feature h4 {
+  color: #555;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.feature p {
+  color: #777;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+/* ------------------------------------------------------- */
+
+.section-3 {
+  width: 56%;
+  margin: 120px auto 0 auto;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.section-3 h3 {
+  margin: 20px;
+  font-size: 2.5em;
+  color: #545252;
+}
+
+.section-3 p {
+  margin: 10px;
+  font-size: 1.2em;
+  color: #7f7f7f;
+}
+
+.devices-img {
+  text-align: center;
+}
+
+/* ----------------------------------------------- */
+
+.section-4 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.section-4 h3 {
+  margin: 20px;
+  font-size: 2.5em;
+  color: #555;
+}
+
+.section-4 p {
+  margin: 10px;
+  font-size: 1.2em;
+  color: #7777;
+}
+
+/* ------------------------------------------------------ */
+
+.features-section-4 h4 {
+  margin: 20px;
+  font-size: 1em;
+  color: #545252;
+}
+
+.features-section-4 p {
+  margin: 10px;
+  font-size: 1em;
+  color: #7f7f7f;
+}
+
+.features-section-4 {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 70px auto 0 auto;
+  padding: 0 50px;
+  gap: 30px;
+}
+
+.feature-4 {
+  width: 30%;
+  text-align: center;
+}
+
+.feature-4 img {
+  margin-bottom: 20px;
+}
+
+/* --------------------------------------------- */
+
+.section-5 {
+  width: 80%;
+  margin: 100px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+  gap: 90px;
+}
+
+/* --------------------------------------------- */
+
+.section-6 h3 {
+  margin: 20px;
+  font-size: 2.5em;
+  color: #555;
+}
+
+.section-6 p {
+  margin: 15px;
+  font-size: 1.2em;
+  color: #777;
+}
+
+.section-6 {
+  text-align: center;
+  margin: 120px auto;
+  margin-bottom: 50px;
+  width: 56%;
+  height: 300px;
+}
+
+.buttons-section-6 {
+  margin-top: 30px;
+}
+
+/* ------------------------------------------------ */
+
+footer {
+  background-color: #f5f6f7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+}
+
+.footer-logo {
+  width: 15%;
+  text-align: right;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: auto;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-links .row {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+.footer-links p {
+  width: 100px;
+}
+
+.footer-links .empty {
+  visibility: hidden;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.social-icons img {
+  width: 25px;
+  margin-left: 15px;
+}
